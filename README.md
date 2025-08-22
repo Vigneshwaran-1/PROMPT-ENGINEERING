@@ -77,4 +77,4 @@ Step 7: Finalize and Export
 
 
 # Result
-Thus given report is done successfully
+Thus given experiment is done successfully
