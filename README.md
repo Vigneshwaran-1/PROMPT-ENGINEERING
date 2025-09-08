@@ -62,8 +62,13 @@ Step 7: Finalize and Export
  Foundation models are large generative AI models trained on a broad spectrum of text and image data. They are capable of performing a wide variety of general tasks like answering questions, writing essays, and captioning images.
  ## 2.Focusing on Generative AI architectures. (like transformers).
  Generative AI models use architectures like Transformers to produce new content by learning complex patterns and relationships within large datasets. The Transformer architecture relies on a powerful self-attention mechanism to weigh the importance of different input data points, allowing it to handle sequential data like text more effectively than older architectures
- 
- <img width="720" height="587" alt="image" src="https://github.com/user-attachments/assets/9a3b7868-e8f3-4236-927b-4b44c6da07a2" />
+
+ ## 1.Diagram
+<img width="1800" height="1000" alt="image" src="https://github.com/user-attachments/assets/70946837-6f0d-4ddc-b087-a0f5a06ab19a" />
+
+##  Their Layers:
+<img width="2232" height="1255" alt="image" src="https://github.com/user-attachments/assets/1f03ff7c-cdbd-4494-af37-15f8d8a09205" />
+
 
 ## 3.	Generative AI applications.
  Generative AI has a wide range of applications, including content creation (text, images, video, music), healthcare (drug discovery, medical imaging), software development (code generation, automated testing), finance (fraud detection, investment strategies), marketing and advertising (personalized campaigns, content generation), and customer service (AI-powered chatbots). It also plays a role in areas like manufacturing, education, legal technology, and fashion, transforming processes and creating innovative solutions.
