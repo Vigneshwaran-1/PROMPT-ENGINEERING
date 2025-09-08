@@ -5,6 +5,7 @@ Develop a comprehensive report for the following exercises:
 2.	Focusing on Generative AI architectures. (like transformers).
 3.	Generative AI applications.
 4.	Generative AI impact of scaling in LLMs.
+5.	Explain about LLM and how it is build.
 
 # Algorithm: Step 1: Define Scope and Objectives
 1.1 Identify the goal of the report (e.g., educational, research, tech overview)
@@ -59,9 +60,15 @@ Step 7: Finalize and Export
 
 # Output
 ## 1.Explain the foundational concepts of Generative AI.
- Foundation models are large generative AI models trained on a broad spectrum of text and image data. They are capable of performing a wide variety of general tasks like answering questions, writing essays, and captioning images.
+~~~
+ Foundation models are large generative AI models trained on a broad spectrum of text and image data. 
+ They are capable of performing a wide variety of general tasks like answering questions, writing essays, and captioning images.
+~~~
  ## 2.Focusing on Generative AI architectures. (like transformers).
- Generative AI models use architectures like Transformers to produce new content by learning complex patterns and relationships within large datasets. The Transformer architecture relies on a powerful self-attention mechanism to weigh the importance of different input data points, allowing it to handle sequential data like text more effectively than older architectures
+ ~~~
+ Generative AI models use architectures like Transformers to produce new content by learning complex patterns and relationships within large datasets. 
+ The Transformer architecture relies on a powerful self-attention mechanism to weigh the importance of different input data points, allowing it to handle sequential data like text more effectively than older architectures
+~~~
 
  ## 1.Diagram
 <img width="1800" height="1000" alt="image" src="https://github.com/user-attachments/assets/70946837-6f0d-4ddc-b087-a0f5a06ab19a" />
@@ -71,13 +78,40 @@ Step 7: Finalize and Export
 
 
 ## 3.	Generative AI applications.
- Generative AI has a wide range of applications, including content creation (text, images, video, music), healthcare (drug discovery, medical imaging), software development (code generation, automated testing), finance (fraud detection, investment strategies), marketing and advertising (personalized campaigns, content generation), and customer service (AI-powered chatbots). It also plays a role in areas like manufacturing, education, legal technology, and fashion, transforming processes and creating innovative solutions.
-
+~~~
+ Generative AI has a wide range of applications, including content creation (text, images, video, music), healthcare (drug discovery, medical imaging), software development (code generation, automated testing), finance (fraud detection, investment strategies), marketing and advertising (personalized campaigns, content generation), and customer service (AI-powered chatbots).
+ It also plays a role in areas like manufacturing, education, legal technology, and fashion, transforming processes and creating innovative solutions.
+~~~
  ## 4.	Generative AI impact of scaling in LLMs.
- Scaling in Large Language Models (LLMs) enhances generative AI by improving language understanding and content creation, but it also presents challenges like increased resource consumption, ethical concerns, and a need for more efficient models. While “scaling up” (bigger models) remains important, organizations are also focusing on "scaling down" (lightweight models) and "scaling out" (distributed workloads) to achieve greater efficiency, wider access, and better sustainability. This shift is driven by a growing enterprise adoption of Generative AI, which requires thoughtful strategies for scaling, managing data, and integrating AI into existing workflows and decision-making systems.
+ ~~~
+ Scaling in Large Language Models (LLMs) enhances generative AI by improving language understanding and content creation, but it also presents challenges like increased resource consumption, ethical concerns, and a need for more efficient models.
+ While “scaling up” (bigger models) remains important, organizations are also focusing on "scaling down" (lightweight models) and "scaling out" (distributed workloads) to achieve greater efficiency, wider access, and better sustainability. 
+ This shift is driven by a growing enterprise adoption of Generative AI, which requires thoughtful strategies for scaling, managing data, and integrating AI into existing workflows and decision-making systems.
+~~~
 
-
-
+## 5.	Explain about LLM and how it is build.
+## i)LLM
+~~~
+A Large Language Model is a deep-learning algorithm that does several Natural Language Processing tasks
+Large learning models must be pre-trained and then fine-tuned to teach human language to solve text classification, text generation challenges, question answers, and document summarization.
+The potential of Large Language Models to solve diverse problems finds applications in fields ranging from finance and healthcare to entertainment., where these LLM models serve an array of NLP applications, like AI assistants, chatbots, translation
+~~~
+## ii)Types of Large Language Models
+~~~
+Large Language Models are classified on the tasks they do:
+Autoregressive LLMs
+Transformer-Based LLMs
+Multilingual Models
+Hybrid Models
+~~~
+### How to Build a Large Language Model?
+~~~
+We'll use Machine Learning frameworks like TensorFlow or PyTorch to create the model.
+These frameworks offer pre-built tools and libraries for creating and training LLMs, so there is little need to reinvent the wheel.
+We'll start by outlining the architecture of LLM.
+Plus, you need to choose the type of model you want to use, e.g., recurrent neural network transformer, and the number of layers and neurons in each layer.
+Next comes the model training using the preprocessed data collected.
+~~~
 
 
 
